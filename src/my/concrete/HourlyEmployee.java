@@ -15,6 +15,18 @@ public class HourlyEmployee extends Employee{
     private double hourlyRate;
     private double pay;
 
+    public double getHoursWorked() {
+        return hoursWorked;
+    }
+
+    public double getHourlyRate() {
+        return hourlyRate;
+    }
+
+    public double getPay() {
+        return pay;
+    }
+
     public void setHoursWorked(double hoursWorked) {
         this.hoursWorked = hoursWorked;
     }
