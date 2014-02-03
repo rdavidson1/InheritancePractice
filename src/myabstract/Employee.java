@@ -14,7 +14,6 @@ public abstract class Employee {
   private String employeeFName;
   private String employeeLName;
   private String employeeID;
-  private int employeeAge;
 
     public String getEmployeeFName() {
         return employeeFName;
@@ -24,9 +23,7 @@ public abstract class Employee {
         return employeeID;
     }
 
-    public int getEmployeeAge() {
-        return employeeAge;
-    }
+   
 
     public void setEmployeeFName(String employeeFName) {
         this.employeeFName = employeeFName;
@@ -36,9 +33,7 @@ public abstract class Employee {
         this.employeeID = employeeID;
     }
 
-    public void setEmployeeAge(int employeeAge) {
-        this.employeeAge = employeeAge;
-    }
+   
 
     public String getEmployeeLName() {
         return employeeLName;
