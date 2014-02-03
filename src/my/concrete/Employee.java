@@ -11,12 +11,29 @@ package my.concrete;
  * @author Ryan
  */
 public class Employee {
-  private String employeeName;
+  private String employeeFName;
+  private String employeeLName;
   private String employeeID;
   private int employeeAge;
 
-    public void setEmployeeName(String employeeName) {
-        this.employeeName = employeeName;
+    public String getEmployeeFName() {
+        return employeeFName;
+    }
+
+    public String getEmployeeLName() {
+        return employeeLName;
+    }
+
+    public String getEmployeeID() {
+        return employeeID;
+    }
+
+    public int getEmployeeAge() {
+        return employeeAge;
+    }
+
+    public void setEmployeeFName(String employeeFName) {
+        this.employeeFName = employeeFName;
     }
 
     public void setEmployeeID(String employeeID) {
@@ -25,5 +42,9 @@ public class Employee {
 
     public void setEmployeeAge(int employeeAge) {
         this.employeeAge = employeeAge;
+    }
+    
+    public void setEmployeeLName(String employeeLName) {
+        this.employeeLName = employeeLName;
     }
 }
